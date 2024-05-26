@@ -6,7 +6,7 @@ await esbuild.build({
     bundle: true,
     outdir: 'out',
     format: "esm",
-    banner:{ js: `/// <reference types="./wasm_bcrypt.d.ts" />` },
+    banner:{ js: `/// <reference types="./wasm.d.ts" />` },
     plugins: [
         wasmLoader({
             mode: "embedded",
