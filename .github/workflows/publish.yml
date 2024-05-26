@@ -45,4 +45,4 @@ jobs:
       - name: Build Package
         run: deno run -A postbuild.ts
       - name: Publish package
-        run: cd out && npx jsr publish
+        run: cd out && deno publish
