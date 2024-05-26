@@ -23,6 +23,7 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
+          target: wasm32-unknown-unknown
       - name: Cache cargo registry
         uses: actions/cache@v1
         with:
