@@ -2,10 +2,5 @@
   "name": "@ts-rex/bcrypt",
   "exports": "./mod.ts",
   "version": "1.0.0",
-  "exclude": ["!wasm_bcrypt.*"],
-  "lint": {
-    "rules": {
-      "exclude": ["no-slow-types"]
-    }
-  }
+  "exclude": ["!wasm_bcrypt.*"]
 }
